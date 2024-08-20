@@ -1,0 +1,59 @@
+Strings
+    
+    String is the Text 'Hello'
+
+Syntax Rules for Strings
+    
+    Start and end With ' '
+
+concatenation
+
+    combine two string 'Some' + 'Text' = 'SomeText'
+  
+typeof is used to find the type of the given input 
+       
+       typeof 2 number
+        
+       typeof 'Hello' string
+
+Type coercion or automatic type conversion
+      
+      'Hello' + 3 = 'Hello3'
+
+  for example
+
+  '$' + 20.95 + 7.99  if the value are given
+   
+  '$20.957.99' this is the result 
+
+  Because it will add the value from left to right
+
+String also follow the precedence
+
+
+3 ways to create a string in javascript:
+
+     1. '.......' single quotes
+
+     2. "......." double
+
+     3. Escape Character \' or \" or \n
+     
+     4. `.....` = template Strings
+          
+          interpolation = insert value directly into a string
+
+          $ {} = insert value directly into string
+
+          it has multi line string 
+
+
+in this lesson 
+       
+       1. String = Text
+       2. use string and number together
+       3.Three ways to create Strings
+          
+          '......' "......" `......`(template strings)
+       4. Escape charaters \' \n
+       5.interpolation, multi-line strings
