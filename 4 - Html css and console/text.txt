@@ -1,0 +1,11 @@
+HTML
+   Hyper text markup language
+CSS
+
+In this lesson
+   
+   1. Reviewed basics of html and CSS
+   2. load javaScript inside an html file
+      <script> , onclick = ""
+   3. comments 
+   4. console.log
