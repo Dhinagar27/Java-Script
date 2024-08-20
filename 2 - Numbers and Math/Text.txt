@@ -1,0 +1,63 @@
+Syntax Rules for numbers and math
+      
+      10 / 2
+      10 * 3
+
+it will also accept the decimal numbers
+
+    order of operations 
+       
+       +   
+       -
+       *
+       / 
+         
+    (operator precednece)
+
+       ()
+
+       * / are done first
+  
+       - + are done after
+
+          if the same priority operator come together it will solve (left to right)
+    
+    Syntax Rules for Brackets
+       
+       ( ) must be in this format
+
+
+1.weird behavior of math in javaScript
+     
+     in programing
+         
+         2,3,4 are integers
+         2.2,2.3 are float
+     
+
+  when calculating money 
+  we want to avoid any inaccuacies 
+         
+         best practice is to 
+            1. calculate in cents instead of dollars
+            2. bact to original format
+
+         like if ( 20.95 + 7.99) gives 28.9399999999998 
+                       
+               we want 28.94
+               
+               so use (2095 + 799) / 100 give the answer
+                   28.94
+
+  2. rounding a number
+
+       Math.round(2.2)  
+
+
+In this lesson 
+
+1. Numbers and Math 
+2. Order of Operations, and Brackets
+3. Calculated the numbers in final project 
+4. Calculations using floats can be inaccurate 
+5. Math.round()
