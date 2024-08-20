@@ -1,0 +1,39 @@
+Java Script 
+
+      A technology that we used to create websites link youtube and amazon
+
+      giving instructions to a computer
+      the computer follows our instructions
+
+3 technology
+    
+    html - that create the content
+    css - changes the appearance
+    javascript - make it interactive
+
+
+
+alert is used of make a alerting tap in the webpages in the top 
+
+    Terminology(naming)
+
+
+Basic of javascript 
+      
+      giving instruction to a computer 
+      (code)
+
+      the computer follows our instruction
+
+Syntax 
+     
+     rules that we have to follow when using a progamming language
+    
+Exercise
+    
+    alert(''); for poppup
+
+    document.body.innerHTML = ''; for changeing the inner html content
+
+
+  
