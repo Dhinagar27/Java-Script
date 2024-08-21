@@ -1,0 +1,66 @@
+variable 
+     
+     it is like a container to store value and use it later
+
+syntax 
+    
+    1. let  - create new variable
+    2. variable name 
+    3. = 
+    4. value
+   
+   like 
+       
+        let variable = 3;
+
+        variable initialize short cut 
+              
+              variable++'
+
+Best practice for naming a variable is the 
+     
+     1. it should short 
+     2. not too simple like "c" and too long 
+
+Naming convertion
+   
+     camelCase   cartQuatity
+
+     PascalCase  CartQuatity
+
+     Kebab-case  cart-quantity
+
+     snake_case  cart_quantity
+
+
+3 ways to create variable 
+    
+    let   - it is the best pracitce is to declare the variable
+
+    var   - var has some issues
+
+    const - can't change the variable further once it is initialize
+           
+           best pracitce = use const by default 
+           (only use let when we need to change the variable)
+
+
+
+
+typeof 
+   
+   it is used to find the type of the variable are we used
+
+
+eval 
+   
+   it is the function used to convert the calculation string into actual math.
+
+In this lesson 
+
+  1. variale = a way to save values
+  2. Re - assign a variable
+  3. Created the Cart quantity feature
+  4. shortcut for re-assigning a variable
+  5. naming converstion and best practice 
+  6. 3 ways to create a variable: let, const, var
