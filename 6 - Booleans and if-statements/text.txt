@@ -1,0 +1,88 @@
+Boolean and if statements
+
+      there only 2 boolean values:
+          true and false
+      
+      Syntax for Booleans
+           
+           if we want to use  Boolean use like this  true or false not like this 'true' and 'false':
+
+Comparison Operators 
+
+       > Greater than 
+
+       < Less than 
+
+       >= Greater than or equal to 
+
+       <= Less than or equal to
+
+       === equal to  
+            
+            == try to convert both the variable into same type
+
+       !== not equal to 
+
+  order of operations 
+       
+       1. (.....)
+
+       2. * / 
+
+       3. + - 
+       
+       4. Comparision operators
+
+if - statements
+    
+    lets us write multiple groups of code 
+    and then decide which code to run
+
+  Syntax 
+     
+     if(condition)
+     {
+      statements 
+     }
+     else
+     {
+      statements
+     }
+
+Rock paper scissors
+   
+   algorithm
+   
+when we click a button:
+    
+1. computer randomly selects a move 
+2. compare the moves to get the result
+3. display the result in a popup 
+   
+
+   Math.random() generates a random number between 0 and 1
+
+logical operators
+   
+   && 
+   ||
+
+
+Truthy value and falsy value 
+     
+    ( false, 0 ,'', NaN ,undefinded, null )are the falsy value
+
+    other then falsy value are called trythy value
+
+In this lesson 
+
+     1. Boolean values(true , false)
+     2. if - statements
+     3. comparison operators(>,<.....)
+        logical operators(&&,||)
+     4. algorithm, and created Rock paper scissors
+     5. Truthy and Falsy values
+     6. Shortcut like Guard , default , ternary operators
+      
+     
+            
