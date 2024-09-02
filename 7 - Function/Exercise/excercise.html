@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+          Functions
+    </title>
+  </head>
+
+  <body>
+    
+    <script>
+    
+        function greet(name = 'User')
+        {
+          console.log('Hello! ' + name);
+        }
+        greet(name);
+        greet();
+
+        //parameterized function
+        
+        let f = 86;
+        function convertFtoC(f) //f is a parameter
+        {
+          return (f-32)*5/9;
+        }
+
+        console.log(convertFtoC(f));
+
+        let c =  25;
+        function convertCtoF(c) //c is a parameter
+        {
+          return (c*9/5)+32;
+        }
+
+        console.log(convertCtoF(c));
+
+        function convertTemp(temp, to)
+        {
+          if(to === 'C')
+          {
+            return (temp-32)*5/9 + 'C';
+          }
+          else if(to === 'F')
+          {
+            return (temp*9/5)+32 + 'F';
+          }
+          else
+          {
+            return 'Invalid input';
+          }
+        }
+
+
+        console.log(convertTemp(86, 'C'));
+
+
+
+        function convertLength(length, from,to)
+        {
+          if(from === 'miles' && to === 'km')
+        {
+          return length * 1.6;
+        }
+        else if(from === 'km' && to === 'miles')
+        {
+          return length / 1.6;
+        }
+        else if(from === 'km' && to === 'km')
+        {
+          return  length;
+        }
+       
+        }
+
+        console.log(convertLength(50, 'miles', 'km'));
+
+
+        function convertWeight(weight, from, to)
+        {
+          if(from === 'kg' && to === 'pounds')
+          {
+            return weight * 2.2;
+          }
+          else if(from === 'pounds' && to === 'kg')
+          {
+            return weight / 2.2;
+          }
+          else if(from === 'kg' && to === 'kg')
+          {
+            return weight;
+          }
+        }
+
+        console.log(convertWeight(50, 'kg', 'pounds'));
+    </script>
+  </body>
+</html>

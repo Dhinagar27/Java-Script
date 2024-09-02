@@ -1,0 +1,25 @@
+Function 
+
+      a Function lets us reuse code
+
+Syntax for function 
+
+  
+  funcion funcion_name()
+  {
+    function body
+  }
+
+  if we want to run the function we need to call it
+
+Return statement
+
+parameter
+
+
+In this lesson
+
+1. Function = let us reuse code
+2. Return = get a value out of a Function
+3. parameter = put values into a function
+4. improved the code for Rocks, paper, Scissors
