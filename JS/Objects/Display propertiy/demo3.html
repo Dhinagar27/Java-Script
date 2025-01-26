@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Displaying Method 3</h1>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <script>
+            var person = {
+                name : "Dhinagar",
+                age  : 22,
+                city : "Erode"
+            }
+
+            let detials = Object.values(person)
+            let name    = JSON.stringify(person)
+            document.getElementById('demo').innerHTML = detials
+            document.getElementById('demo2').innerHTML = name
+        </script>
+    </body>
+</html>

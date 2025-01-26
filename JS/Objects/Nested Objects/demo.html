@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Nested Objects</h1>
+        <p id="demo"></p>
+        <script>
+            var person = {
+                name : "Dhinagar",
+                age  : 22,
+                myfav: {
+
+                    fav1 : "Plague Tale",
+                    fav2 : "Days Gone",
+                    fav3 : "Red Dead Redemption 2",
+
+                }   
+            }
+            document.getElementById('demo').innerHTML = person.name + " likes " + person.myfav["fav3"] + " Game"
+        </script>
+    </body>
+</html>

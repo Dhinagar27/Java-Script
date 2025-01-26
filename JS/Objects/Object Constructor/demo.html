@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <h1>Object Contructors</h1>
+        <p id="demo"></p>
+        <script>
+            function person (name , age , eyecolour) {
+                this.name = name;
+                this.age = age;
+                this.eyecolour = eyecolour
+            }
+
+            var myself = new person ("Dhinagar" , 22 , "Black")
+            document.getElementById('demo').innerHTML = "My Name is " + myself.name
+
+        </script>
+    </body>
+</html>

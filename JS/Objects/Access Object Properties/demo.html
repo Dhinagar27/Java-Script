@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Two ways of Accessing the Object Properties</h1>
+        <p>Click Here</p>
+        <p  id="demo"></p>
+        <script>
+            const person = {
+                name   : "Dhinagar",
+                age    : 22,
+                friend : "Roshan"
+            }
+            document.getElementById('demo').innerHTML = " My Name is " + person.name + " My Age is " + person["age"] + " My Friend Name is " + person.friend
+
+        </script>
+    </body>
+</html>

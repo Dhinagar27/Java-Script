@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Adding Methods to Object</h1>
+        <p id="demo"></p>
+
+        <script>
+            var person = {
+                firstname : "Dhinagar",
+                lastname : "D",
+                age : 22
+            }
+
+            person.fullname = function () {
+                return this.firstname + " " + this.lastname 
+            }
+
+            document.getElementById("demo").innerHTML = "My name is " + person.fullname()
+        </script>
+    </body>
+</html>

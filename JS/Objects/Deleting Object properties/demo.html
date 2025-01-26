@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Deleting Object Property </h1>
+        <p id="demo"></p>
+
+        <script>
+            const person = {
+                name : "Dhinagar",
+                age : 22,
+                friend : "Roshan",
+                fav_game : "plague Tale"
+            }
+            delete person.age;
+            delete person["fav_game"]
+
+            document.getElementById('demo').innerHTML = person.name + " His age " + person.age + " And His fav game  " + person["fav_game"] 
+
+        </script>
+    </body>
+</html>

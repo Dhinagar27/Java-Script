@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Adding a Method to Constructor</h1>
+        <p id="demo"></p>
+        <script>
+            function person (first , last , age , colour) {
+                this.firstname = first
+                this.lastname = last 
+                this.age = age
+                this.eyecolour = colour
+            }
+
+            var myself = new person ("Dhinagar" , "R" , 22 , "black")
+
+            person.prototype.changename = function (name) {
+                this.lastname = name
+            }
+
+            myself.changename("D")
+
+            document.getElementById('demo').innerHTML = myself.firstname + " " + myself.lastname
+        </script>
+    </body>
+</html>

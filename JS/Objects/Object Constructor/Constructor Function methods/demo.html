@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Constructor function methods</h1>
+        <p id="demo"></p>
+        <script>
+
+            function person (first , last , age , city) {
+                this.firstname = first
+                this.lastname = last
+                this.age = age
+                this.city = city
+                this.fullname = function () {
+                    return this.firstname + " " + this.lastname
+                }
+            }
+
+            var myself = new person ("Dhinagar" , "D" , 22 , "Erode")
+            document.getElementById('demo').innerHTML = myself.fullname()
+        </script>
+    </body>
+</html>
